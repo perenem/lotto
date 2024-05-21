@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="header" class="header">
+    <div class="headerButtonContainer">
+        <form th:action="@{/}" method="get">
+            <button type="submit" class="headerButton"><b>1</b></button>
+        </form>
+        <form th:action="@{/}" method="get">
+            <button type="submit" class="headerButton"><b>2</b></button>
+        </form>
+    </div>
+</div>
+</html>
